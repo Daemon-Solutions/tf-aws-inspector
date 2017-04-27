@@ -30,8 +30,7 @@ Rule ARNs for other regions can be found through the AWS CLI with `aws inspector
 4. Common Vulnerabilities and Exposures
 
 ## Other requirements
-The AWS agent will need to be installed on any instance (target) where Amazon Inspector will be run. 
+The AWS agent will need to be installed on any instance that Amazon Inspector will be targeting. 
 
-Linux: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-linux.html
-Windows: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html
- 
+[Linux documentation](https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-linux.html)
+[Windows documentation](https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html)
