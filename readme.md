@@ -28,3 +28,10 @@ Rule ARNs for other regions can be found through the AWS CLI with `aws inspector
 2. Runtime behaviour analysis
 3. CIS Operating System Security Configuration Benchmarks
 4. Common Vulnerabilities and Exposures
+
+## Other requirements
+The AWS agent will need to be installed on any instance (target) where Amazon Inspector will be run. 
+
+Linux: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-linux.html
+Windows: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html
+ 

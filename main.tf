@@ -19,7 +19,7 @@ resource "aws_inspector_assessment_template" "template" {
 }
 
 module "innervision_iam_inspector_role" {
-  source = "c:/users/sdatt/documents/bashton/innervision-aws/terraform/localmodules/tf-aws-iam-instance-profile" #"../localmodules/tf-aws-iam-instance-profile"
+  source = "../localmodules/tf-aws-iam-instance-profile"
 
   name         = "innervision-inspector-iam"
   ec2_describe = "1"
