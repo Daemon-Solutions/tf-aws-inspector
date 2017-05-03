@@ -17,11 +17,3 @@ resource "aws_inspector_assessment_template" "template" {
 
   rules_package_arns = ["${var.rules}"]
 }
-
-module "inspector_iam_role" {
-  source = "../localmodules/tf-aws-iam-instance-profile"
-
-  name         = "inspector-iam"
-  ec2_describe = "1"
-  s3_readonly  = "0"
-}
